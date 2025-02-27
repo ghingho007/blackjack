@@ -1,33 +1,42 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>BlackJack</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-        <div class="container">
-            <a href="index.html" title="Clicca per ricaricare la pagina">
-                <img src="cards-removebg-preview.png" width="330px">
-            </a>
-
-            <p id="numero">TOTALE: 0</p>
-            <p id="txt-variabile"></p>
-        
-            <hr>
-
-            <div class="buttons">
-                <button id="pesca" onclick="pesca()">CHIAMA CARTA</button>
-                <button id="stai" onclick="stai()">STAI</button>
-            </div>
-
-            <button id="restart-btn" onclick="reset()">NUOVA PARTITA</button>
-
+    <div class="container">
+        <div class="image-container">
+            <img id="imageuno" src="Group 1.png">
+            <img id="imagedue" src="Group 2.png">
+            <img id="imagetre" src="Group 3.png">
+            <img id="imagequattro" src="Group 4.png">
+            <img id="imagecinque" src="Group 5.png">
+            <img id="imagesei" src="Group 6.png">
+            <img id="imagesette" src="Group 7.png">
+            <img id="imageotto" src="Group 8.png">
+            <img id="imagenove" src="Group 9.png">
+            <img id="imagedieci" src="Group 10.png">
         </div>
 
-        <script src="index.js"></script>
-        
-    </body>
-    </html>
+        <p id="numero">TOTALE: 0</p>
+        <p id="txt-variabile"></p>
+
+        <div class="buttons">
+            <button id="pesca" onclick="pesca()">CHIAMA CARTA</button>
+            <button id="stai" onclick="stai()">STAI</button>
+        </div>
+
+        <button id="restart-btn" onclick="reset()">NUOVA PARTITA</button>
+
+    </div>
+
+    
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
